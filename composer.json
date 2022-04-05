@@ -1,0 +1,21 @@
+{
+  "name": "forrestsj/automation-bundle",
+  "description": "Automate functional tests",
+  "type": "symfony-bundle",
+  "require": {
+    "php": ">=7.4",
+    "symfony/framework-bundle": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ForrestSJ\\AutomationBundle\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David LEFORESTIER",
+      "email": "david.leforestier@free.fr"
+    }
+  ]
+}
