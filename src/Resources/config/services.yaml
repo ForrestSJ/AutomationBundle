@@ -1,0 +1,5 @@
+services:
+  forrest.automation:
+    class: ForrestSJ\AutomationBundle\Command\Automation
+    tags:
+      - { name: console.command, command: forrestsj:automate }
